@@ -1,0 +1,41 @@
+
+import Database from '../database';
+import CustomerModel from './customers';
+import AdresseModel from './adresses';
+import AttendanceModel from './attendances';
+import ContactModel from './contacts';
+import AttachmentModel from './attachments';
+import DocumentItemModel from './document_items';
+import DocumentModel from './documents';
+import ExternalEntityModel from './external_entities';
+import ProductModel from './products';
+import PromoterModel from './promoters';
+import RelationshipModel from './relationships';
+import SellerModel from './sellers';
+import SyncModel from './syncs';
+import TransactionModel from './transactions';
+import UserModel from './users';
+import SalesAnalysisModel from './sales_analysis';
+import SettingModel from './settings';
+import SalesoffModel from './salesoffs';
+
+const dataBase = new Database();
+
+export const customerModel = new CustomerModel(dataBase.db);
+export const adresseModel = new AdresseModel(dataBase.db);
+export const attendanceModel = new AttendanceModel(dataBase.db);
+export const contactModel = new ContactModel(dataBase.db);
+export const Attachment = new AttachmentModel();
+export const documentItemModel = new DocumentItemModel(dataBase.db);
+export const documentModel = new DocumentModel(dataBase.db);
+export const externalEntityModel = new ExternalEntityModel(dataBase.db);
+export const productModel = new ProductModel(dataBase.db);
+export const promoterModel = new PromoterModel(dataBase.db);
+export const relationshipModel = new RelationshipModel(dataBase.db);
+export const sellerModel = new SellerModel(dataBase.db);
+export const syncModel = new SyncModel(dataBase.db);
+export const transactionModel = new TransactionModel(dataBase.db);
+export const userModel = new UserModel(dataBase.db);
+export const salesAnalysisModel = new SalesAnalysisModel(dataBase.db);
+export const settingModel = new SettingModel(dataBase.db);
+export const salesoffModel = new SalesoffModel(dataBase.db);
