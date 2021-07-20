@@ -12,7 +12,7 @@
     "moment": "^2.24.0",
     "qs": "^6.7.0",
     "react": "16.8.3",
-    "react-native": "0.59.9",
+    "react-native": "0.62.3",
     "react-native-background-downloader": "^2.1.0",
     "react-native-camera-kit": "^8.0.1",
     "react-native-datepicker": "^1.7.2",
