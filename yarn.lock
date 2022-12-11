@@ -5196,10 +5196,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-qs@^6.7.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
-  integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+qs@^6.7.3:
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.3.tgz#67634d715101aa950601f58dbef353b7e1696b95"
+  integrity sha512-WBoQWf5L/UOLqUj8Mvr4Om7J+ZTCqPbYPHyeLNRS9t9Q3M3/o/9ctpWnlo8yyETPclx7FhH5LidjKKJa9kdSRQ==
 
 qs@~6.5.2:
   version "6.5.2"
@@ -5403,6 +5403,11 @@ react-native-open-map@^3.0.0:
     prop-types "^15.7.2"
     react-native-actionsheet "^2.4.2"
     react-native-root-siblings "^3.1.7"
+
+react-native-permissions@^2.0.8:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-2.2.2.tgz#3d2a63f6b7d6be52fc86e30f77412a9566283028"
+  integrity sha512-ihf4shQDSX5Oo9ChQXb9kr13mmyyNem5MaEvOpr3dCjhBOBWyEMztXm9/uPK1Qg5PsNpaYLa1KpcPZDCw87LXg==
 
 react-native-picker-select@^6.3.3:
   version "6.3.3"
